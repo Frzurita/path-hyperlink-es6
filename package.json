@@ -1,0 +1,30 @@
+{
+  "name": "path-hyperlink-es6",
+  "main": "./lib/path-hyperlink-es6",
+  "version": "0.3.0",
+  "description": "File jumper in es6 with hyperclick",
+  "keywords": [
+    "hyperclick",
+    "path",
+    "file",
+    "es6"
+  ],
+  "repository": "https://github.com/Frzurita/path-hyperlink-es6",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "package-deps": [
+    "hyperclick"
+  ],
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  }
+}
